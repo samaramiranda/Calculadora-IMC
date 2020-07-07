@@ -1,0 +1,77 @@
+body {
+  background-color: rgb(209, 129, 25);
+}
+
+header {
+  font-size: 45px;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+  text-shadow: 0.08em 0.05em 0.2em black;
+  text-align: center;
+  margin: 30px;
+  color: white;
+}
+
+section {
+  background-color: white;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+}
+
+div#dados {
+  display: flex;
+  flex-direction: column;
+  width: 190px;
+  margin: auto;
+}
+
+label {
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 2px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input {
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(245, 220, 188);
+  padding: 4px;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  border-radius: 4px;
+  border: none;
+  background-color: rgb(209, 129, 25);
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 5px;
+}
+
+img {
+  width: 410px;
+  height: 180px;
+  margin: 0px 0px 20px 43px;
+}
+
+label#imc {
+  margin-left: 120px;
+}
+
+div#resultado {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 25px;
+  background-color: rgb(245, 220, 188);
+  width: 300px;
+  margin: auto;
+  border-radius: 8px;
+}
