@@ -13,7 +13,7 @@ function calcular() {
     resul.style.background = "#ffff00"
   } else if (imc <= 24.9) {
     resul.innerHTML = `<strong>Resultado</strong> <br>Seu IMC é: ${imc.toFixed(2)} <br>Classificação: Peso normal`
-    resul.style.background = "#32CD32"
+    resul.style.background = "#2cb62c"
     console.log("normal")
   } else if (imc <= 29.9) {
     resul.innerHTML = `<strong>Resultado</strong> <br>Seu IMC é: ${imc.toFixed(2)} <br>Classificação: Sobrepeso`

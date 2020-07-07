@@ -1,5 +1,6 @@
 body {
-  background-color: rgb(209, 129, 25);
+  background-color: rgb(109, 107, 107);
+
 }
 
 header {
@@ -12,6 +13,7 @@ header {
   margin: 30px;
   color: white;
 }
+
 
 section {
   background-color: white;
@@ -40,7 +42,7 @@ label {
 input {
   border-radius: 4px;
   border: none;
-  background-color: rgb(245, 220, 188);
+  background-color: rgb(216, 216, 216);
   padding: 4px;
 }
 
@@ -49,11 +51,16 @@ button {
   margin-bottom: 25px;
   border-radius: 4px;
   border: none;
-  background-color: rgb(209, 129, 25);
+  background-color: rgb(109, 109, 109);
   color: white;
   font-size: 18px;
   font-weight: bold;
   padding: 5px;
+}
+
+button:hover {
+  background-color: rgb(83, 83, 83);
+  cursor: pointer;
 }
 
 img {
